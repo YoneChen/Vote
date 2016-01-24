@@ -1,0 +1,83 @@
+html {
+    height: 100%;
+}
+
+/*登陆页面*/
+.body-login {
+    height: 100%;
+}
+.login-wrap {
+    display: table;
+    margin: 0 auto;
+    height: 100%;
+}
+.loginbox {
+    display: table-cell;
+    padding-bottom: 100px;
+    width: 280px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/*投票页面平板显示*/
+header{
+	width:100%;
+	height:72px;
+	background-color:#3498db;
+	font-size:28px;
+	color:#fff;
+	text-align:center;
+}
+.title{
+	line-height:70px;
+}
+.row {
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.checkrow{
+	margin-left:70px;
+	margin-right:70px;
+}
+.submitbt{
+	display:block;
+	margin:0 auto;
+	width:100%;
+	max-width:280px;
+}
+@media screen and (max-width: 480px)  {/*移动端显示*/
+	header{
+	height:55px;
+	font-size:22px;
+}
+.title{
+	line-height:55px;
+}
+.row {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.checkrow{
+	margin-left:10px;
+	margin-right:10px;
+}
+}
+@media screen and (min-width: 800px)  {/*PC端宽屏显示*/
+	header{
+	height:80px;
+	font-size:36px;
+	color:#3498db;
+	background-color:#fff;
+}
+.title{
+	line-height:80px;
+}
+.row {
+    margin-right: 120px;
+    margin-left: 120px;
+}
+.checkrow{
+	margin-left:140px;
+	margin-right:140px;
+}
+}
